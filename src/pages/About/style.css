@@ -1,0 +1,8 @@
+.collapsesabout {
+    display: flex;
+    flex-direction: column;
+}
+
+.collapsesabout .princip {
+    margin-bottom: 1rem;
+}

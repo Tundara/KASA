@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.alink {
+    text-decoration: none;
+}
+
+.navButton {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.alink {
+    color: #FF6060;
+}
+
+.alink:hover {
+    text-decoration: underline;
+}
+

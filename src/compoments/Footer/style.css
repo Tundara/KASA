@@ -1,0 +1,20 @@
+Footer {
+    background-color: black;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footerdiv {
+    padding: 4rem;
+    text-align: center;
+}
+
+.logoclass {
+    width: 13rem;
+    margin-bottom: 1rem;
+}

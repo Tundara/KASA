@@ -1,0 +1,59 @@
+h1 {
+    color: #FF6060;
+}
+
+h3 {
+    color: #FF6060;
+}
+
+.taglist {
+    display: flex;
+    flex-direction: row;
+}
+
+.profilepic {
+    display: flex;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.righttext {
+    display: flex;
+    flex-direction: row;
+}
+
+.hostName {
+    text-align: right;
+    width: 60%;
+}
+
+.lefttext {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilePicture {
+    margin-left: 1rem;
+    border-radius: 50%;
+    height: 4rem;
+}
+
+.collapses {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,12 @@
+.tag {
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+    background-color: #FF6060;
+    width: fit-content;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}

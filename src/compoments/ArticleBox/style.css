@@ -1,0 +1,37 @@
+.article {
+    position: relative;
+    height: 345px;
+    width: 345px;
+    border-radius: 10px;
+    margin: 1.5rem;
+    overflow: hidden;
+    background-color: #FF6060;
+}
+
+
+.article::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1;
+}
+
+.article-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: #fff;
+    z-index: 2;
+}
+
+.article-img {
+    height: 345px;
+    width: 345px;
+    min-height: 100%;
+    object-fit: cover;
+}

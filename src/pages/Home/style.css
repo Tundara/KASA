@@ -1,0 +1,12 @@
+.home {
+    background-color: black;
+}
+
+.articlesbloc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F7F7F7;
+    border-radius: 25px;
+}

@@ -16,6 +16,6 @@ body {
 
 @media only screen and (max-width: 600px){
     .Body {
-        margin: 0;
+        margin: 1rem;
     }
 }

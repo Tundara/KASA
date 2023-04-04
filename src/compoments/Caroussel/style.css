@@ -19,11 +19,11 @@
     outline: none;
     cursor: pointer;
     z-index: 1;
-    left: 90%;
+    right: 6rem;
 }
 
 .prev {
-    right: 90%;
+    left: 6rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -32,4 +32,16 @@
     outline: none;
     cursor: pointer;
     z-index: 1;
+}
+
+@media only screen and (max-width: 600px){
+    .prev {
+        left: 2rem;
+        transform: translateY(-8rem);
+    }
+
+    .next {
+        right: 2rem;
+        transform: translateY(-8rem);
+    }
 }

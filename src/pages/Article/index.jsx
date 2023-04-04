@@ -28,22 +28,24 @@ export default function Article() {
               .map(item => (
                 <div key={item.id}>
                   <Caroussel imgs={item.pictures} page={3} />
-                  <div className="desc">
-                    <div className="lefttext">
-                        <h1>{item.title}</h1>
-                        <h4>{item.location}</h4>
-                    </div>
-                    <div className="righttext">
-                        <div className="hostName"><h3>{item.host.name}</h3></div>
-                        <div className="profilepic"><img className="profilePicture" src={item.host.picture}></img></div>
-                    </div>
-                  </div>
-                  <div className="subDesc">
-                    <div className="taglist">
-                        <TagBox items={item.tags} />
-                    </div>
-                    <div className="starRate">
-                        <Stars rate={item.rating} />
+                  <div className="allDesc">
+                    <div className="desc">
+                      <div className="lefttext">
+                          <h1>{item.title}</h1>
+                          <h4>{item.location}</h4>
+                          <div className="taglist">
+                            <TagBox items={item.tags} />
+                          </div>
+                      </div>
+                      <div className="righttext">
+                        <div className="profiletxt">
+                          <div className="hostName"><h3>{item.host.name}</h3></div>
+                          <div className="profilepic"><img className="profilePicture" src={item.host.picture}></img></div>
+                        </div>
+                          <div className="starRate">
+                          <Stars rate={item.rating} />
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div className="collapses">

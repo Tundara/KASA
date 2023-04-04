@@ -24,3 +24,12 @@ nav {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 600px){
+    nav img {
+        width: 8rem;
+    }
+
+    .navButton {
+        gap: 1rem;
+    }
+}
